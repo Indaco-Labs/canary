@@ -44,7 +44,7 @@ python -m ruff check .
 python -m mypy
 ```
 
-Tests will be added in Stage 2. Until then, the absence of tests is expected.
+
 
 ## Hardware plan
 
@@ -59,4 +59,4 @@ The DHT22 modules share 3.3 V and ground. Physical sensor access is not required
 
 ## Licence
 
-A licence has not yet been selected. Choose and add one before public distribution if you intend to grant reuse rights.
+A licence has not yet been selected. 
