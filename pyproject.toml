@@ -10,15 +10,18 @@ description = "Canary environmental monitoring system"
 readme = "README.md"
 requires-python = ">=3.12,<3.13"
 authors = [{ name = "Indaco Labs" }]
-dependencies = []
+dependencies = [
+    "pydantic>=2,<3",
+    "pydantic-settings>=2,<3",
+]
 
 [project.optional-dependencies]
 dev = [
     "pytest>=8,<10",
     "ruff>=0.9,<1",
     "mypy>=1.14,<2",
+    "pre-commit>=4,<5",
 ]
-
 [tool.setuptools.packages.find]
 where = ["src"]
 
