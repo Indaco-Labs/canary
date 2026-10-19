@@ -1,0 +1,1 @@
+"""Canary environmental monitoring package."""
