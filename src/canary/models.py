@@ -72,7 +72,7 @@ class AcquisitionFailure(BaseModel):
     @field_validator("timestamp")
     @classmethod
     def utc_timestamp(cls, value: datetime) -> datetime:
-        return Measurement.utc_timestamp(value)
+        return validate_utc_timestamp(value)
 
 
 AcquisitionResult = Annotated[
